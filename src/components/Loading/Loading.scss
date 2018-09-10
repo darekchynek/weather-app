@@ -1,0 +1,22 @@
+.loading {
+    display: block;
+    z-index: 100000;
+    width: 60px;
+    height: 60px;
+    top: 5%;
+    color: white;
+    position: absolute;
+    animation: spin 4s linear infinite;
+    left: 94%;
+}
+
+@keyframes spin {
+    100%{transform: rotate(360deg);}
+}
+
+.imgContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}

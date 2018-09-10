@@ -1,0 +1,14 @@
+@import './var.scss';
+
+body {
+  font-family: sans-serif;
+  background: #112233;
+}
+a {
+  color: $text;
+  
+  &:hover {
+    text-decoration: none;
+    color: $text;
+  }
+}

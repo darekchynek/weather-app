@@ -1,0 +1,68 @@
+@import '../../var.scss';
+
+p {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.weatherItemBox {
+    position: relative;
+    width: 90%;
+    height:320px; 
+    border: 1px solid #ccc;
+    opacity: 1;
+    text-align: center;
+    background-color: rgb(245, 240, 240);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+
+.weatherLogo { 
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.weatherinfo {
+    border-radius: 0 0 10px 10px ;
+    width: 100%;
+}
+
+.tempBox {
+    position: absolute;
+    top: 38%;
+}
+
+.delete {
+    top: 2%;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    border-radius: 50px;
+    position: absolute;
+    left: 86%;
+    cursor: pointer;
+
+    &:hover {
+        color: $mainColorRed;
+    }
+}
+
+.refresh {
+    top: 2%;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    border-radius: 50px;
+    position: absolute;
+    left: 74%;
+    cursor: pointer;
+
+    &:hover {
+        color: $mainColorBlue;
+    }
+}
+
+
